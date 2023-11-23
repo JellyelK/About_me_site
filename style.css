@@ -116,6 +116,7 @@ nav ul li a:hover{
 
 /* Projetos */
 #projetos{
+    width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -357,35 +358,53 @@ footer{
     }
     #perfil{
         width: 100%;
-        height: 100%;
-        margin-top: 50px;
+        height: 100vh;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        margin: 0;
     }
     #text{
         margin-top: 50px;
-        line-height: 20px;
-        text-align: left;
-        height: 45vh;
+        line-height: 22px;
+        text-align: justify;
+        height: 50%;
+    }
+    /* Pagina 2 */
+    #projetos{
+        width: 100%;
+        height: 100vh;
+    }
+    .container{
+        width: 100%;
+        height: 30%;
+        align-items: center;
     }
     .projeto{
-        margin-bottom: 20px;
+        width: 32%;
+        height: 100%;
         border: 2px solid white;
     }
-    .competencia{
-        margin-bottom: 20px;
-        height: 250px;
-    }
-    #perfil{
-        height: 80vh;
-    }
-    #projetos{
-        height: 100vh;
-    }
+
+    /* pagina 3 */
     #habilidades{
+        width: 100%;
         height: 100vh;
     }
+    .container_pg3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items:normal;
+    }
+    .competencia{
+        width: 32%;
+        height: 50%;
+    }
+
+    /* footer */
     #footer_container{
         height: 100%;
         padding: 50px;
@@ -431,14 +450,19 @@ footer{
     #check:checked ~ ul{
         left: 0;
     }
+
+    /* Pagina 1 */
     #perfil{
-        margin-bottom: 50px;
+        width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column-reverse;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+
+    }
+    #foto{
+        margin: 0;
     }
     #perfil button{
         margin: 20px 0;
@@ -449,19 +473,18 @@ footer{
         font-size: 22px;
         font-weight: bold;
     }
-    #foto{
-        margin: 25px 0 0 0;
-    }
     #text{
         width: 100%;
-        height: 45vh;
+        height: 100%;
         padding: 0 20px;
         line-height: 22px;
         text-align: justify;
     }
+
+    /* Pagina 2 */
     #projetos{
-        margin: 50px 0;
-        height: 100%;
+        width: 100%;
+        height: 100vh;
     }
     #projetos button{
         width: 350px;
@@ -469,19 +492,44 @@ footer{
         font-size: 25px;
         margin: 20px 0 50px 0;
     }
+    #projetos button a{
+        font-size: 20px;
+        font-weight: 500;
+    }
     .container{
         width: 100%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .projeto{
-        margin-bottom: 20px;
+        width: 400px;
+        height: 280px;
         border: 2px solid white;
+        margin-bottom: 10px;
     }
+
+    /* Pagina 3 */
+
     #habilidades{
         height: 100%;
     }
+    .container_pg3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .competencia{
+        width: 400px;
+        height: 250px;
+        border: 2px solid white;
+        margin-bottom: 10px;
+    }
+
+    /* footer */
     #footer_container{
         height: 100%;
         padding: 50px;
