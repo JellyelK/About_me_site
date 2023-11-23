@@ -323,7 +323,7 @@ footer{
 }
 
 /* Notebooks e Tablets */
-@media (max-width: 952px){
+@media (min-width: 858px) and (max-width: 952px){
     .checkbtn{
         display: block;
     }
