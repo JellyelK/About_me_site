@@ -460,13 +460,14 @@ footer{
 
     /* Pagina 1 */
     #perfil{
+        min-height: 100vh;
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        margin: 100px 0;
+        margin: 50px 0;
 
     }
     #foto{
@@ -476,6 +477,7 @@ footer{
     #perfil button{
         margin: 20px 0;
         width: 350px;
+        min-width: 100%;
         height: 50px;
     }
     #perfil button a{
@@ -493,11 +495,13 @@ footer{
     /* Pagina 2 */
     #projetos{
         width: 100%;
-        height: 100vh;
+        height: 100%;
+        min-height: 100vh;
     }
     #projetos button{
-        width: 400px;
-        height: 200px;
+        width: 75%;
+        min-width: 350px;
+        min-height: 60px;
         margin: 20px 0 50px 0;
     }
     #projetos button a{
@@ -512,7 +516,8 @@ footer{
         align-items: center;
     }
     .projeto{
-        width: 400px;
+        width: 95%;
+        min-width: 100%;
         height: 280px;
         border: 2px solid white;
         margin-bottom: 10px;
@@ -521,21 +526,23 @@ footer{
     /* Pagina 3 */
 
     #habilidades{
-        margin: 50px 0;
-        height: 100vh;
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
     }
     .container_pg3{
         width: 100%;
-        height: 80%;
+        height: 100%;
         display: flex;
         flex-direction: column;
         align-items:center;
     }
     .competencia{
-        width: 400px;
-        height: 250px;
+        width: 95%;
+        min-width: 100%;
+        height: 280px;
         border: 2px solid white;
-        /* margin-bottom: 20px; */
+        margin-bottom: 15px;
     }
 
     /* footer */
