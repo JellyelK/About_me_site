@@ -505,6 +505,7 @@ footer{
     #check:checked ~ ul{
         left: 0;
     }
+    
 
     /* Pagina 1 */
     #perfil{

@@ -9,21 +9,21 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav>
-      <input type="checkbox" id="check">
+    <nav id="navbar">
+      <input type="checkbox" id="check" onclick="teste_nav()">
       <label for="check" class="checkbtn">
         <i class="fa fa-bars"></i>
       </label>
       <label for="logo" class="logo">Jellyel Kennedy</label>
-      <ul>
+      <ul id="lista_nav">
         <li>
           <a class="active" href="#">Home</a>
         </li>
         <li>
-          <a href="#projetos">Portifólio</a>
+          <a href="#projetos" class="link" onclick="ocultar_nav()">Portifólio</a>
         </li>
         <li>
-          <a href="#habilidades">Habilidades</a>
+          <a href="#habilidades" class="link" onclick="ocultar_nav">Habilidades</a>
         </li>
         <li>
           <a href="mailto: jellyelkennesy@gmail.com" subject="text" target="_blank">Contato</a>
@@ -93,5 +93,6 @@
       </div>
     </footer>
 
+    <script src="script.js"></script>
   </body>
 </html>
